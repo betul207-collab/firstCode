@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="OKYS-DESIGN">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Kitap&#10;------------------&#10;- isbn: String&#10;- baslik: String&#10;- yazar: String&#10;- yayinYili: int&#10;- durum: String" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="KitapKopyasi&#10;------------------&#10;- kopyaId: String&#10;- kitap: Kitap&#10;- oduncAlinabilirMi: boolean" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Kullanici&#10;------------------&#10;- kullaniciId: String&#10;- adSoyad: String&#10;- eposta: String" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="OduncKaydi&#10;------------------&#10;- kayitId: String&#10;- kullanici: Kullanici&#10;- kitapKopyasi: KitapKopyasi&#10;- oduncTarihi: Date" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="180" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
