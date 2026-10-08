@@ -1,0 +1,13 @@
+=====================================================
+OTOMATİK KÜTÜPHANE YÖNETİM SİSTEMİ (OKYS)
+Yazılım Gereksinim Özellikleri (SRS)
+=====================================================
+
+1. GİRİŞ
+Bu doküman, OKYS projesinin gereksinimlerini içermektedir.
+
+2. SINIFLAR
+- Kitap: Temel kitap bilgilerini tutar.
+- KitapKopyasi: Fiziksel kitap kopyalarının durumunu tutar.
+- Kullanici: Sistemdeki kullanıcı bilgilerini barındırır.
+- OduncKaydi: Kullanıcı ile KitapKopyasi arasındaki ödünç verme işlemini kaydeder.
